@@ -1,0 +1,29 @@
+weights:
+  use_case_fit: 1.0
+  integration: 1.0
+  confidential_data: 1.5
+  resiliency: 1.0
+  exposure: 1.5
+
+# Simple mapping of certain answers to risk points (higher = worse).
+# You can extend this over time.
+rules:
+  - question_id: Q6
+    when: "Yes - no opt-out"
+    add_points: 5
+    rationale: "Customer data used for training without opt-out increases privacy/compliance risk."
+
+  - question_id: Q6
+    when: "Yes - opt-out available"
+    add_points: 2
+    rationale: "Training use still raises risk, but mitigations exist."
+
+  - question_id: Q6
+    when: "No"
+    add_points: 0
+    rationale: "No training use reduces privacy and IP risk."
+
+  - question_id: Q13
+    when: "No"
+    add_points: 3
+    rationale: "No stated SLA weakens resiliency posture."
