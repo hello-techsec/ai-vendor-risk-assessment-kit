@@ -1,0 +1,10 @@
+{
+  "vendor_name": "RiskyGenAI",
+  "responses": {
+    "Q1": "Customer-facing chatbot for account support.",
+    "Q4": ["PII", "Credentials"],
+    "Q6": "Yes - no opt-out",
+    "Q8": "No",
+    "Q13": "No"
+  }
+}
