@@ -1,0 +1,10 @@
+{
+  "vendor_name": "ExampleAI",
+  "responses": {
+    "Q1": "Internal assistant for AI governance policy Q&A.",
+    "Q4": ["No personal data"],
+    "Q6": "No",
+    "Q8": "Yes",
+    "Q13": "Yes (>=99.9)"
+  }
+}
