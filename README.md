@@ -27,13 +27,16 @@ This produces:
 questionnaires/
 - vendor_ai_security_[privacy.md](http://privacy.md)
 - question_bank.yaml
+  
 rubric/
 - scoring_rubric.yaml
 - scripts/
 - score_[vendor.py](http://vendor.py)
+  
 examples/
 - vendor_responses_good.json
 - vendor_responses_risky.json
+  
 out/
 - (generated reports go here)
 
