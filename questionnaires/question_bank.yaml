@@ -1,0 +1,29 @@
+questions:
+  - id: Q1
+    domain: use_case_fit
+    text: "Describe the AI use case and intended users."
+    type: text
+
+  - id: Q4
+    domain: confidential_data
+    text: "What data types are processed (PII, sensitive data, credentials)?"
+    type: multi_select
+    options: ["PII", "Sensitive", "Credentials", "No personal data"]
+
+  - id: Q6
+    domain: confidential_data
+    text: "Is customer data used for training or fine-tuning?"
+    type: select
+    options: ["No", "Yes - opt-out available", "Yes - no opt-out"]
+
+  - id: Q8
+    domain: exposure
+    text: "Logging: are security logs available to customers?"
+    type: select
+    options: ["Yes", "Partial", "No"]
+
+  - id: Q13
+    domain: resiliency
+    text: "Availability target (SLA) stated?"
+    type: select
+    options: ["Yes (>=99.9)", "Yes (<99.9)", "No"]
